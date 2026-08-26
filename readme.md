@@ -1,4 +1,4 @@
-# Deltaco Gaming GAM-075 — QMK + VIA (SonixQMK `sn32_develop`)
+# Deltaco Gaming GAM-075 — QMK + VIA
 
 This is a fork of [SonixQMK/qmk_firmware](https://github.com/SonixQMK/qmk_firmware) (`sn32_develop` branch), adding full **ISO layout support** and a working **VIA** setup for the Deltaco Gaming GAM-075 — also sold under various Royal Kludge RK61 RGB clone listings, since this board's PCB is shared across several rebrands.
 
