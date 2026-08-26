@@ -48,7 +48,7 @@ Do **not** pass `-j` — that flag is for flashing a separate "jumploader" compo
 
 1. Get VIA from [the-via/releases](https://github.com/the-via/releases/releases), or use [usevia.app](https://usevia.app) in a Chromium-based browser.
 2. In Settings, enable **"Show Design tab"**.
-3. Go to the **Design tab**, load [`via/deltaco_gam075_via_v3.json`](via/deltaco_gam075_via.json) from this repo.
+3. Go to the **Design tab**, load [`via/deltaco_gam075_via.json`](via/deltaco_gam075_via.json) from this repo.
 4. Go to **Configure**, click **"Authorize device"** (do this fresh, even if already connected — re-authorizing after loading the definition is required for VIA to pick it up).
 
 You should now have full keymap remapping and live RGB Matrix control.
