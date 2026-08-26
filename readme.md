@@ -58,7 +58,7 @@ You should now have full keymap remapping and live RGB Matrix control.
 ## Building from Source
 
 ```bash
-git clone --branch sn32_develop --single-branch https://github.com/<your-fork>/qmk_firmware.git
+git clone --branch sn32_develop --single-branch https://github.com/Nosen92/gam075-qmk.git
 cd qmk_firmware
 git submodule update --init --recursive
 make royal_kludge/rk61_rgb:iso
