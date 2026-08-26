@@ -57,10 +57,13 @@ You should now have full keymap remapping and live RGB Matrix control.
 
 ## Building from Source
 
+Prerequisites: arm-none-eabi-gcc-cs arm-none-eabi-newlib
+
 ```bash
-git clone --branch sn32_develop --single-branch https://github.com/Nosen92/gam075-qmk.git
-cd qmk_firmware
+git clone https://github.com/Nosen92/gam075-qmk.git
+cd gam075-qmk
 git submodule update --init --recursive
+pip install -r requirements.txt
 make royal_kludge/rk61_rgb:iso
 ```
 
@@ -87,7 +90,6 @@ git submodule update --init --recursive --force
 - **`keyboard.json`'s layout schema does not support KLE's multi-rectangle key trick** (`w2`/`h2`/`x2`, used for the ISO Enter key's true L-shape). Using it silently discards the *entire file*, not just that one entry, producing confusing downstream errors ("No LAYOUTs defined", bootmagic range errors, missing bootloader). The VIA JSON format *does* support this trick — just not `keyboard.json` itself. Use a plain rectangle there instead.
 - **VIA's built-in `"qmk_rgb_matrix"` menu preset queries channel 2 (`RGBLIGHT`)**, which this board doesn't implement (it uses `RGB_MATRIX_ENABLE`, channel 3). This causes the whole Lighting tab to fail to load. The included `via/deltaco_gam075_via_v3.json` works around this with a fully custom `menus` block bound explicitly to channel 3.
 - **RGB Matrix effect numbering** is determined by `#include` order in `quantum/rgb_matrix/animations/rgb_matrix_effects.inc`, filtered to only the effects your `keyboard.json` enables — **not** the order they're listed in `keyboard.json` itself. If you add/remove effects, the VIA JSON's `Effect` dropdown numbering needs to be recalculated to match.
-- Custom effects (like the trans flag one here) get appended after the last built-in enabled effect in the enum — verify the actual number empirically (cycle to it with `RM_NEXT` and confirm) rather than assuming.
 
 ## Credits
 
