@@ -39,7 +39,7 @@ Use [SonixFlasherC](https://github.com/SonixQMK/SonixFlasherC) — **not** the o
 Make sure to use your USB Vendor ID and Product ID. Under linux, you can find them with `lsusb`.
 
 ```bash
-sudo ./sonixflasher --vidpid 0c45/7040 --file rk61_rgb_iso.bin --offset 0x0000
+sudo ./sonixflasher --vidpid 0c45/7040 --file deltaco_gam075_iso.bin --offset 0x0000
 ```
 
 Do **not** pass `-j` — that flag is for flashing a separate "jumploader" component this board doesn't use. This board's native ISP bootloader is flashed directly at offset `0`.
