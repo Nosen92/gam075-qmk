@@ -4,6 +4,8 @@ This is a fork of [SonixQMK/qmk_firmware](https://github.com/SonixQMK/qmk_firmwa
 
 If you have this exact keyboard and just want remapping/RGB control working, skip to [Quick Start](#quick-start). If you want to build the firmware yourself, see [Building from Source](#building-from-source).
 
+![Deltaco Gaming GAM-075](media/gam075.jpg)
+
 ## Is this your keyboard?
 
 Confirm your MCU before going further — check the chip printed on the PCB, or the info on the sticker/box:
