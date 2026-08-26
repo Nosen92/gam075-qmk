@@ -53,6 +53,8 @@ Do **not** pass `-j` — that flag is for flashing a separate "jumploader" compo
 
 You should now have full keymap remapping and live RGB Matrix control.
 
+![GAM-075 in VIA](media/gam075-via.jpg)
+
 ## Building from Source
 
 ```bash
