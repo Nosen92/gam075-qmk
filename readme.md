@@ -32,7 +32,7 @@ Upstream's `royal_kludge/rk61_rgb` only defines the ANSI layout. This fork adds:
 
 ### 1. Flash the firmware
 
-Enter bootloader mode by following the instructions in the [SonixQMK docs](https://sonixqmk.github.io/SonixDocs/install/).
+Enter bootloader mode by following the instructions in the [SonixQMK docs](https://sonixqmk.github.io/SonixDocs/install/#42-entering-bootloader-mode).
 
 Use [SonixFlasherC](https://github.com/SonixQMK/SonixFlasherC) — **not** the older `sonix-flasher` GUI tool, which its own README now marks deprecated/unsafe.
 
