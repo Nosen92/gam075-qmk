@@ -23,7 +23,6 @@ Upstream's `royal_kludge/rk61_rgb` only defines the ANSI layout. This fork adds:
 - `keymaps/iso/` — a full ISO keymap (Win/Mac dual-layer switching, function layer, modern `RM_`-prefixed RGB keycodes), adapted from the existing `default` ANSI keymap
 - `LAYOUT_60_iso` added to `keyboard.json`, alongside the existing ANSI layout
 - Two missing RGB LED positions added to `keyboard.json` (`[3,1]` and `[2,12]`) — present and lit on the ISO board, but absent from the ANSI-only upstream LED map
-- A custom **trans pride flag** RGB effect (`rgb_matrix_user.inc`) — the 5 keyboard rows lit as the 5 flag stripes
 - A working [VIA](https://www.caniusevia.com/) definition (V3 format), since this board isn't in VIA's official list
 
 ## Quick Start
