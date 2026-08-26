@@ -1,6 +1,6 @@
 # Deltaco Gaming GAM-075 — QMK + VIA
 
-This is a fork of [SonixQMK/qmk_firmware](https://github.com/SonixQMK/qmk_firmware) (`sn32_develop` branch), adding full **ISO layout support** and a working **VIA** setup for the [Deltaco Gaming GAM-075](https://www.deltacogaming.com/product-page/mini-mechanical-gaming-keyboard) — which is a clone of the Royal Kludge RK61 RGB wired mechanical keyboard.
+This is a fork of [SonixQMK/qmk_firmware](https://github.com/SonixQMK/qmk_firmware) (`sn32_develop` branch), adding full **ISO layout support** and a working **VIA** setup for the [Deltaco Gaming GAM-075](https://www.deltacogaming.com/product-page/mini-mechanical-gaming-keyboard) — which is a clone of the [Royal Kludge RK61 RGB](https://rkgamingstore.com/products/rk61-60-percent-keyboard) wired mechanical keyboard.
 
 If you have this exact keyboard and just want remapping/RGB control working, skip to [Quick Start](#quick-start). If you want to build the firmware yourself, see [Building from Source](#building-from-source).
 
