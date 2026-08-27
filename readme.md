@@ -94,8 +94,9 @@ git submodule update --init --recursive --force
 
 Built on the work of many people across this board's history:
 - Dimitris Mantzouranis, Philip Mourdjis, Fernando Birra — original `royal_kludge/rk61_rgb` ANSI port on `sn32_develop`
-- euwbah, ab00a — earlier SN32 fork lineage this board's matrix/RGB driver work traces back to
+- [euwbah](https://github.com/euwbah), [ab00a](https://github.com/ab00a) — earlier SN32 fork lineage this board's matrix/RGB driver work traces back to
 - [SonixQMK](https://github.com/SonixQMK) — for maintaining SN32 support in QMK at all
+- And of course [QMK](https://github.com/qmk)
 
 ## License
 
