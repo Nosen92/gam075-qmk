@@ -27,7 +27,7 @@ Upstream's `royal_kludge/rk61_rgb` only defines the ANSI layout. This fork adds:
 
 ## Quick Start
 
-**You don't need to compile anything to use VIA** — grab the pre-built firmware from [Releases](../../releases).
+**You don't need to compile anything to use VIA** — just grab the pre-built .bin file from [Releases](../../releases).
 
 ### 1. Flash the firmware
 
