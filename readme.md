@@ -31,7 +31,7 @@ Upstream's `royal_kludge/rk61_rgb` only defines the ANSI layout. This fork adds:
 
 ### 1. Flash the firmware
 
-Enter bootloader mode by following the instructions in the [SonixQMK docs](https://sonixqmk.github.io/SonixDocs/install/#42-entering-bootloader-mode). If your keyboard is still on stock firmware, you need to ground the boot pin while plugging in the keyboard to the computer. After flashing this firmware, you can easily enter the bootloader by pressing `fn` + `left ctrl`.
+To make the keyboard accept a new firmware, first enter bootloader mode. If your keyboard is still on stock firmware, to enter bootloader mode you need to ground the boot pin on the MCU while plugging in the keyboard to the computer. For reference, see the photo in the instructions in the [SonixQMK docs](https://sonixqmk.github.io/SonixDocs/install/#42-entering-bootloader-mode). If you have already flashed this firmware, you can easily enter the bootloader again by pressing `fn` + `left ctrl`.
 
 Use [SonixFlasherC](https://github.com/SonixQMK/SonixFlasherC) — **not** the older `sonix-flasher` GUI tool, which its own README now marks deprecated/unsafe.
 
