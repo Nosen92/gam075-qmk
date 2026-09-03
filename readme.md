@@ -11,10 +11,10 @@ If you have this exact keyboard and just want remapping/RGB control working, ski
 Confirm your MCU before going further — check the chip printed on the PCB, or the info on the sticker/box:
 
 - **MCU:** `HFD2201KBA` (a rebrand of `SN32F248BF`)
-- Sold as: Deltaco Gaming GAM-075, and various Royal Kludge RK61 RGB clones
-- Layout: 61-key ISO (this fork), also works as ANSI via the upstream `default` keymap
+- Sold as: Deltaco Gaming GAM-075
+- Layout: 62-key ISO, all layout regions compatible
 
-If your board reports a different MCU, this port likely won't apply — the matrix/RGB driver wiring is specific to this exact chip and PCB.
+If your board reports a different MCU (fir instance STM32), this port likely won't apply — the matrix/RGB driver wiring is specific to this exact chip and PCB.
 
 ## What's different from upstream `sn32_develop`
 
