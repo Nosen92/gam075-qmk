@@ -12,7 +12,7 @@ Confirm your MCU before going further — check the chip printed on the PCB, or 
 
 - **MCU:** `HFD2201KBA` (a rebrand of `SN32F248BF`)
 - Sold as: Deltaco Gaming GAM-075
-- Layout: 62-key ISO, all layout regions compatible
+- Layout: 62-key ISO, all regional layouts compatible (tested on swedish layout)
 
 If your board reports a different MCU (fir instance STM32), this port likely won't apply — the matrix/RGB driver wiring is specific to this exact chip and PCB.
 
